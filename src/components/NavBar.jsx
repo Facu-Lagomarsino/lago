@@ -1,6 +1,6 @@
 import MiLogo from '../img/lt.png';
 import MenuHam from '../img/menuH.png';
-
+import CartWidget from './CartWidget';
 
 let options = document.querySelectorAll(".option");
 let slide = document.querySelector(".slide"); 
@@ -8,8 +8,8 @@ let slide = document.querySelector(".slide");
 
 function NavBar() { 
 
-    const handleClick=()=>{
-    window.scrollTo({ top: "500", behavior: "smooth" });
+    const handleClick= () => {
+    window.scrollTo({ top: "300", behavior: "smooth" });
 
     }
 
@@ -21,6 +21,7 @@ function NavBar() {
             <a className="navbar-brand" href="index.html"><img src={MiLogo} className="App-logo" alt="logo" /></a>
             <h1 className="title" onClick={handleClick}>Lago'</h1>
             <button id="menu" className="menu"><img src={MenuHam} alt="menu" /></button>
+            <CartWidget />
         </nav>   
 
         <div id="menuNav" className="menuNav">         

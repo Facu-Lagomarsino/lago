@@ -80,14 +80,20 @@ li {
     cursor: pointer;
 }
 
+.cart {
+    position: fixed;
+    right: 5.5rem;
+}
+
 /* CATALOGO */
 .container {
     display: inline-block;
     text-align: center;
     align-items: center;
     background-color: #fff;
-    margin-top: 37rem;
+    margin-top: 17rem;
     height: 17rem;
+    opacity: .8;
 } 
 
 .container h3 {

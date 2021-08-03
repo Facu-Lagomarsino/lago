@@ -2,8 +2,10 @@
 
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+
 import './css/Style.css';
 import './App.css';
+import ItemListContainer from './components/ItemListContainer';
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
     return (
         
     <body className="App">
+        
         <header>
 
         <NavBar />
@@ -20,15 +23,14 @@ function App() {
         </header>
 
         <main>
-            <div id="main" class="container">
-                <h3>Hola!</h3>
-                <p>Lago' en React!</p> 
-            </div> 
+
+        <ItemListContainer greeting="LAGO'" />
+
         </main>
         
      
         <footer> 
-        <Footer nombre={nombre} />
+        <Footer nombre = {nombre} />
             <a 
             className="App-link" 
             href="https://reactjs.org"

@@ -1,138 +1,145 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: aquamarine;
-    width: 100%;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
+body {
+  background: aquamarine;
+  width: 100%;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
 }
 
 /* HEADER */
 .navbar-brand {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .navbar {
-    background: #343a40;
-    box-shadow: 0 6px 10px rgba(179, 179, 179, .5);
+  background: #343a40;
+  box-shadow: 0 6px 10px rgba(179, 179, 179, 0.5);
 }
 
-#menu{
-    background: transparent;
-    border: none;
-    padding-right: 2rem;
+#menu {
+  background: transparent;
+  border: none;
+  padding-right: 2rem;
 }
 
 .menu img {
-    display: flex;
-    width: 30px;
-    cursor: pointer;
-} 
+  display: flex;
+  width: 30px;
+  cursor: pointer;
+}
 
-.menuNav {    
-    position: relative;
-    width: 410px;
-    height: 50px;
-    background: #fff;
-    box-shadow: 0 6px 10px rgba(179, 179, 179, .5);
-    opacity: .8;
-} 
+.menuNav {
+  position: relative;
+  width: 410px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(179, 179, 179, 0.5);
+  opacity: 0.8;
+}
 
 ul {
-    display: flex;
-    padding-left: 0rem;
-} 
+  display: flex;
+  padding-left: 0rem;
+}
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .menuNav a {
-    display: inline-block;
-    width: calc(410px / 4);
-    height: 30px;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-    color: #343a40;
+  display: inline-block;
+  width: calc(410px / 4);
+  height: 30px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #343a40;
 }
 
 .slide {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: calc(410px / 4);
-    height: 4px;
-    background: #343a40;
-    transition: 2s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(410px / 4);
+  height: 4px;
+  background: #343a40;
+  transition: 2s;
 }
 
 .title {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 30px;
-    cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 .cart {
-    position: fixed;
-    right: 5.5rem;
+  position: fixed;
+  right: 5.5rem;
 }
 
 /* CATALOGO */
 .container {
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    background-color: #fff;
-    margin-top: 17rem;
-    height: 17rem;
-    opacity: .8;
-} 
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  margin-top: 17rem;
+  height: 17rem;
+  opacity: 0.8;
+}
 
 .container h3 {
-    color: #343a40;
+  color: #343a40;
 }
 
 .container p {
-    color: #343a40;
+  color: #343a40;
 }
-
 
 /* FOOTER */
 .miFooter {
-    display: inline-block;
-    align-items: center;
-    background-color: #343a40;
-    width: 100%;
-    height: 20vh;
-    bottom: 0;
-    margin-top: 2rem; 
-    box-shadow: 10px 0px 10px rgba(179, 179, 179, .5);
-}    
+  display: inline-block;
+  align-items: center;
+  background-color: #343a40;
+  width: 100%;
+  height: 20vh;
+  bottom: 0;
+  margin-top: 2rem;
+  box-shadow: 10px 0px 10px rgba(179, 179, 179, 0.5);
+}
 
 .miFooter p {
-    color: #fff;
-    margin-top: 0.5rem;
+  color: #fff;
+  margin-top: 0.5rem;
 }
 
 .misRedes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .misRedes img {
-    width: 35px;
-    margin: 0.5rem;
+  width: 35px;
+  margin: 0.5rem;
 }
 .misRedes img:hover {
-    transform: scale(1.2);
-    transition: 0.8s;
+  transform: scale(1.2);
+  transition: 0.8s;
+}
+
+/* BOTONES */
+.btns {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  color: #343a40;
 }

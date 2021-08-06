@@ -15,7 +15,7 @@ function NavBar() {
 
     return (
 
-        <>
+        <>   
       
         <nav className="navbar navbar-light">
             <a className="navbar-brand" href="index.html"><img src={MiLogo} className="App-logo" alt="logo" /></a>

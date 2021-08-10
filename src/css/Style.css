@@ -143,3 +143,11 @@ li {
   height: 2rem;
   color: #343a40;
 }
+
+/* CARDS */
+.cards {
+  width: "150px";
+  height: "150px";
+  border: "1px solid #343a40";
+
+}

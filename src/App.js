@@ -1,9 +1,11 @@
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
 import "./css/Style.css";
 import "./App.css";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import ItemListContainer from "./components/ItemListContainer";
 import ItemCount from "./components/ItemCount";
+import ItemList from "./components/ItemList";
+
 
 function App() {
     let nombre = "Facu Lagomarsino";
@@ -17,6 +19,8 @@ function App() {
             <main>
                 <ItemListContainer greeting="LAGO'" />
                 <ItemCount count ="1" stock="10" />
+                <ItemList />
+              
             </main>
 
             <footer>

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Button from "./Button";
 
 function ItemCount(props) {
     const [card] = useState("Card");
     const [count, setCount] = useState(0);
-    const [prodStock, setprodStock] = useState(props.stock);
+    const [prodStock] = useState(props.stock);
 
     function sum () {
         if (count < prodStock) {
@@ -18,10 +18,6 @@ function ItemCount(props) {
         }
     }
 
-
-    useEffect(() => {
-        console.log("AVISO", count)
-    }, [count])
     return (
         <>
             <h1>{card}</h1>

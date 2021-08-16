@@ -92,7 +92,7 @@ li {
   align-items: center;
   background-color: #fff;
   margin-top: 17rem;
-  height: 17rem;
+  height: 100%;
   opacity: 0.8;
 }
 
@@ -146,8 +146,9 @@ li {
 
 /* CARDS */
 .cards {
-  width: "150px";
-  height: "150px";
-  border: "1px solid #343a40";
-
+  display: inline-block;
+  width: 150px;
+  height: 100%;
+  border: 1px solid #343a40;
+  margin: 2rem;
 }

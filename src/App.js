@@ -3,8 +3,8 @@ import "./App.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import ItemListContainer from "./components/ItemListContainer";
-import ItemCount from "./components/ItemCount";
-import ItemList from "./components/ItemList";
+
+
 
 
 function App() {
@@ -17,10 +17,7 @@ function App() {
             </header>
 
             <main>
-                <ItemListContainer greeting="LAGO'" />
-                <ItemCount count ="1" stock="10" />
-                <ItemList />
-              
+                <ItemListContainer greeting="LAGO'" /> 
             </main>
 
             <footer>

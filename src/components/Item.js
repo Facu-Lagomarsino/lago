@@ -1,6 +1,6 @@
 import ItemCount from "./ItemCount";
 
-function Item({name, description}) {
+function Item({name, description, count, stock}) {
 
     return(
         <>

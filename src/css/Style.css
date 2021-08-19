@@ -30,9 +30,11 @@ body {
 }
 
 .menu img {
-  display: flex;
   width: 30px;
   cursor: pointer;
+  position: fixed;
+  right: 2.4rem;
+  top: 1.4rem;
 }
 
 .menuNav {

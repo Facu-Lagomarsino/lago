@@ -4,14 +4,11 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import ItemListContainer from "./components/ItemListContainer";
 
-
-
-
 function App() {
     let nombre = "Facu Lagomarsino";
 
     return (
-        <body className="App">
+        <div className="App">
             <header>
                 <NavBar />
             </header>
@@ -31,7 +28,7 @@ function App() {
                 Sumate!
                 </a>
             </footer>
-        </body>
+        </div>
     );
 }
 

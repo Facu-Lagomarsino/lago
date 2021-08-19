@@ -1,4 +1,5 @@
 import ItemList from "./ItemList";
+import ItemDeatilContainer from "./ItemDeatilContainer";
 
 function ItemListContainer(props) {
   return (
@@ -7,6 +8,7 @@ function ItemListContainer(props) {
           <h1>{props.greeting}</h1>
           <p>React!</p>   
           <ItemList />
+          <ItemDeatilContainer />
         </div>
     </>
     );

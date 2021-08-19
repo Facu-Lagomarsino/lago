@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect  } from "react";
 import Item from "./Item";
 
 
@@ -13,6 +13,7 @@ function ItemList() {
                 id: 1,
                 name: "Calzado",
                 description: "Running Hombre",
+                count: 1,
                 stock: 10
 
             },
@@ -20,6 +21,7 @@ function ItemList() {
                 id: 1,
                 name: "Calzado",
                 description: "Running Mujer",
+                count: 1,
                 stock: 10
 
             }
@@ -29,7 +31,7 @@ function ItemList() {
             setProducts(dataResolve)
         })
         .catch((error) => {
-            console.log("error", error)
+            console.log("Error", error)
         })
     }, [])
 

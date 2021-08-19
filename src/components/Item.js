@@ -8,7 +8,7 @@ function Item({name, description, count, stock}) {
             <p>{description}</p>
             <span>{name}</span>
             <h1>FOTO!</h1>
-            <ItemCount count ="1" stock="10" />
+            <ItemCount count ={count} stock={stock} />
             <button>AGREGAR</button>
         </div>    
         </>

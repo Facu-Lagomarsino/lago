@@ -1,34 +1,37 @@
 import "./css/Style.css";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import ItemListContainer from "./components/ItemListContainer";
+import {BrowserRouter, Switch, Route } from "react-router-dom";
+
+    //PAGES
+import Home from "./pages/Home";
+import Characters from "./pages/Characters";
+import ItemDetailContainer from "./components/ItemListContainer";
+import Episodes from "./pages/Episodes";
+
 
 function App() {
-    let nombre = "Facu Lagomarsino";
 
     return (
-        <div className="App">
-            <header>
-                <NavBar />
-            </header>
 
-            <main>
-                <ItemListContainer greeting="LAGO'" /> 
-            </main>
+        <BrowserRouter >
+            <NavBar />
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route exact path="/characters">
+                    <Characters />
+                </Route>
+                <Route exact path="/item/:id">
+                    <ItemDetailContainer />
+                </Route>
+                <Route exact path="/episodes">
+                    <Episodes />
+                </Route>
+            </Switch>
+        </BrowserRouter>
 
-            <footer>
-                <Footer nombre={nombre} />
-                <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                Sumate!
-                </a>
-            </footer>
-        </div>
     );
 }
 

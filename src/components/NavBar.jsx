@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom';
+
+    //IMAGES
 import MiLogo from '../img/lt.png';
 import MenuHam from '../img/menuH.png';
 import CartWidget from './CartWidget';
 
+
+
 let options = document.querySelectorAll(".option");
 let slide = document.querySelector(".slide"); 
-
 
 function NavBar() { 
 
@@ -26,10 +30,18 @@ function NavBar() {
 
         <div id="menuNav" className="menuNav">         
             <ul>
-                <li><a href="index.html" className="option">Home</a></li>
-                <li><a href="index.html" className="option">Info</a></li>
-                <li><a href="index.html" className="option">Horarios</a></li>
-                <li><a href="index.html" className="option">Contacto</a></li>
+                <li className="option">
+                    <Link to="/">Home</Link>
+                </li>
+                <li className="option">
+                    <Link to="/">Products</Link>
+                </li>
+                <li className="option">
+                    <Link to="/">Products Detail</Link>
+                </li>
+                <li className="option">
+                    <Link to="/">Categories</Link>
+                </li>
             </ul>
             <span className="slide"></span>
         </div>

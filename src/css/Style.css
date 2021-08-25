@@ -89,12 +89,21 @@ li {
 
 /* CATALOGO */
 .container {
-  display: inline-block;
   text-align: center;
   align-items: center;
   background-color: #fff;
   margin-top: 17rem;
   height: 100%;
+  opacity: 0.8;
+}
+
+.containerProducts {
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100%;
+  margin: 2rem;
+  padding: 1rem;
   opacity: 0.8;
 }
 
@@ -119,8 +128,20 @@ li {
 }
 
 .miFooter p {
+  text-align: center;
   color: #fff;
   margin-top: 0.5rem;
+}
+
+.miFooter span {
+  display: block;
+  text-align: center;
+}
+
+.miFooter a {
+  display: block;
+  text-align: center;
+  cursor: pointer;
 }
 
 .misRedes {
@@ -154,3 +175,8 @@ li {
   border: 1px solid #343a40;
   margin: 2rem;
 }
+
+.cards img {
+  width: 100%;
+}
+

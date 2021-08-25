@@ -19,6 +19,14 @@ function Footer(props) {
 			    <li><a href="https://www.youtube.com/"><img src={Youtube} alt="" /></a></li>
 		    </ul>
             <span>Creador del sitio: {props.nombre}</span>
+			<a
+				className="App-link"
+				href="https://reactjs.org"
+				target="_blank"
+				rel="noopener noreferrer"
+				>
+				Sumate!
+            </a>
 	    </footer>
 
         </>

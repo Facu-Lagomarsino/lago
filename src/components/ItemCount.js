@@ -19,12 +19,16 @@ function ItemCount(props) {
     }
 
     return (
+
         <>
+
             <h1>{card}</h1>
             <h2>{count}</h2>
             <Button text="+" onAdd={() => sum()} />
             <Button text="-" onAdd={() => res()} />
+            
         </>
+
     );
 }
 

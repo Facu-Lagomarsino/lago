@@ -6,19 +6,19 @@ function ItemListContainer(){
     const [products, setProducts] = useState([]);
     const [ loading, setLoading ] = useState(false);
 
-    useEffect(() => 
+    useEffect(() => {
         new Promise((resolve, reject) => {
-            setLoading(true);
+            setLoading(true)
             setTimeout(() => resolve(productsJson), 2000);
         }).then((data) => setProducts(data))
           .finally(() => {
-            setLoading(false) 
+            setLoading(false)
         })  
     }, []);
 
-  
+    console.log("de donde viene?", products);
     
-    return loading ? <h1>Loading...</h1> : <ItemList products={products}/>  
+    return loading ? <p>Loading...</p> : <ItemList products={products} />;  
      
 }
 
@@ -27,21 +27,3 @@ export default ItemListContainer;
 
 
 
-
-
-// import ItemList from "./ItemList";
-
-
-// function ItemListContainer(props) {
-//   return (
-//     <>
-        
-//           <h1>{props.greeting}</h1>
-//           <p>React!</p>   
-//           <ItemList />
-        
-//     </>
-//     );
-// }
-
-// export default ItemListContainer;

@@ -4,7 +4,7 @@ import Youtube from '../img/youtube.png';
 
 
 
-function Footer(props) {
+function footer(props) {
 
     
     return(
@@ -34,4 +34,4 @@ function Footer(props) {
     );
 }
 
-export default Footer;
+export default footer;

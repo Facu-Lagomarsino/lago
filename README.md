@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Description
+
+First delivery of the final project that deals with an e-commerce of its own brand under the name of LAGO 'of sporting goods. The intention is that it be the easiest for the visit of users and as a reference I use (https://www.nike.com/uy/)
+At this stage you can see the NavBar with its pages, with a delay simulates the content reloading. the shopping cart does not have functionality at the moment and the name of the brand that appears in the header directs them to the articles section. The home page to which you can return with a click on the logo and the products section with the details of those that appear brought from a .json file and the categories and contact pages only have the path. At the moment the itrem or cards have similar content.
+
+

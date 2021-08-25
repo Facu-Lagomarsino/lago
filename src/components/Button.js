@@ -1,4 +1,4 @@
-function Button(props) {
+function button(props) {
     return (
         <>
         <button className="btns" onClick={props.onAdd}>{props.text}</button>
@@ -6,4 +6,4 @@ function Button(props) {
     );
 }
 
-export default Button;
+export default button;

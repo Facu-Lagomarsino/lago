@@ -1,6 +1,6 @@
 import Cart from '../img/cart.png';
 
-function CartWidget() {
+function cartWidget() {
 
     return (
         
@@ -15,4 +15,4 @@ function CartWidget() {
     );
 }     
 
-export default CartWidget;
+export default cartWidget;
